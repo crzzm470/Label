@@ -1,0 +1,5 @@
+Logotipo:
+Label => #FFFFFF
+Eventos => #d11515
+
+Fondo Web/Logo => #141414

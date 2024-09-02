@@ -1,0 +1,349 @@
+/*------------------------------
+    PRELOADER
+-------------------------------*/
+
+.preeloader {
+    background: rgba(255, 255, 255, 1) none repeat scroll 0 0;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    z-index: 999999;
+}
+
+.preloader-spinner {
+    -webkit-animation: 1s ease-out 0s normal none infinite running pulsate;
+    animation: 1s ease-out 0s normal none infinite running pulsate;
+    border: 5px solid #d11515;
+    border-radius: 40px;
+    display: block;
+    height: 40px;
+    left: 50%;
+    margin: -20px 0 0 -20px;
+    opacity: 0;
+    position: fixed;
+    top: 50%;
+    width: 40px;
+    z-index: 10;
+}
+
+@-webkit-keyframes pulsate {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0.1);
+        transform: scale(0.1);
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+}
+
+@keyframes pulsate {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0.1);
+        transform: scale(0.1);
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+}
+
+
+/*----------------------------------
+    MEDIUM LAYOUT: 1280px
+-----------------------------------*/
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .navbar-header {
+        margin-top: -4px;
+    }
+    ul#nav li a {
+        padding: 30px 10px;
+    }
+    .is-sticky ul#nav li a {
+        padding: 22px 10px;
+    }
+    .welcome-text h1 {
+        font-size: 45px;
+    }
+    .welcome-text h3 {
+        font-size: 32px;
+    }
+    .welcome-img {
+        width: 70%;
+    }
+    .welcome-mockup-img {
+        max-width: 90%;
+    }
+    .about-img-one>img {
+        max-width: 80%;
+        width: auto;
+    }
+    .about-img-two>img {
+        max-width: 90%;
+    }
+    .single-price.active .price-details::after,
+    .single-price:hover .price-details::after {
+        left: 34px;
+        opacity: 1;
+    }
+}
+
+
+/*----------------------------------
+    TABLET LAYOUT: 768px
+------------------------------------*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .section-padding {
+        padding: 80px 0;
+    }
+    .padding-top {
+        padding-top: 80px;
+    }
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-header .collapse,
+    .navbar-toggle {
+        border: 2px solid #d11515;
+        border-radius: 0;
+        display: block !important;
+    }
+    .navbar-toggle .icon-bar {
+        background: #d11515 none repeat scroll 0 0;
+    }
+    .navbar-header {
+        float: none;
+    }
+    .navbar-header {
+        border-bottom: 1px solid #d11515;
+        margin: 0;
+        padding: 15px 0;
+    }
+    ul#nav {
+        width: 100%;
+        max-height: 200px;
+        overflow: scroll;
+        overflow-x: hidden;
+    }
+    ul#nav li {
+        float: none;
+    }
+    .navbar-brand {
+        padding: 8px;
+        margin-top: -10px;
+    }
+    .is-sticky .navbar-brand {
+        margin-top: -3px;
+    }
+    .mainmenu-area {
+        background: #272727 none repeat scroll 0 0;
+    }
+    ul#nav li a,
+    .is-sticky ul#nav li a {
+        color: #fff;
+        padding: 10px 15px;
+    }
+    ul#nav li a::after {
+        display: none;
+    }
+    /*-----------------*/
+    .area-title h2 {
+        font-size: 40px;
+    }
+    .welcome-text h3 {
+        font-size: 30px;
+    }
+    .welcome-text h1 {
+        font-size: 40px;
+    }
+    .single-price {
+        margin-bottom: 50px;
+    }
+    .priceing-area .row .col-lg-4:last-child .single-price:last-child {
+        margin-bottom: 0;
+    }
+    .about-details {
+        margin-bottom: 50px;
+    }
+    .single-service {
+        margin-bottom: 30px;
+    }
+    .service-area .row>div:last-child .single-service {
+        margin-bottom: 0;
+    }
+    .single-portfolio {
+        margin-bottom: 30px;
+    }
+    .portfolio-masonry>div:last-child .single-portfolio {
+        margin-bottom: 0;
+    }
+    .portfolio-img img {
+        width: 100%;
+    }
+}
+
+
+/*----------------------------------
+    MOBILE LAYOUT: 320px
+-----------------------------------*/
+
+@media only screen and (max-width: 767px) {
+    .section-padding {
+        padding: 50px 0;
+    }
+    .area-title {
+        margin-bottom: 50px;
+    }
+    .area-title h2 {
+        font-size: 28px;
+    }
+    .padding-top {
+        padding-top: 50px;
+    }
+    .navbar-header {
+        border-bottom: 1px solid #d11515;
+        margin: 0;
+        padding: 15px 0;
+    }
+    ul#nav {
+        width: 100%;
+        max-height: 200px;
+        overflow: scroll;
+        overflow-x: hidden;
+    }
+    ul#nav li {
+        float: none;
+    }
+    .navbar-brand {
+        padding: 8px;
+        margin-top: -10px;
+    }
+    .is-sticky .navbar-brand {
+        margin-top: -3px;
+    }
+    .mainmenu-area {
+        background: #272727 none repeat scroll 0 0;
+    }
+    ul#nav li a,
+    .is-sticky ul#nav li a {
+        color: #fff;
+        padding: 10px 15px;
+    }
+    ul#nav li a::after {
+        display: none;
+    }
+    /*-----------------*/
+    .welcome-text h1 {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+    .welcome-text h3 {
+        font-size: 20px;
+    }
+    .welcome-text p {
+        display: none;
+    }
+    .home-button a {
+        display: inline-block;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+    .home-button a:first-child {
+        display: none;
+    }
+    .home-button {
+        margin-top: 30px;
+    }
+    .video-button-and-text h3 {
+        font-size: 24px;
+        letter-spacing: 2px;
+    }
+    .inline-block li {
+        padding: 5px 10px;
+    }
+    .single-price {
+        margin-bottom: 50px;
+    }
+    .priceing-area .row .col-lg-4:last-child .single-price:last-child {
+        margin-bottom: 0;
+    }
+    .single-price.active .price-details::after,
+    .single-price:hover .price-details::after {
+        left: 34px;
+    }
+    .about-details {
+        margin-bottom: 50px;
+    }
+    .single-service {
+        margin-bottom: 30px;
+    }
+    .service-area .row>div:last-child .single-service {
+        margin-bottom: 0;
+    }
+    .single-portfolio {
+        margin-bottom: 30px;
+    }
+    .portfolio-masonry>div:last-child .single-portfolio {
+        margin-bottom: 0;
+    }
+    .portfolio-img img {
+        width: 100%;
+    }
+}
+
+
+/*----------------------------------
+    WIDE MOBILE LAYOUT: 480px
+-----------------------------------*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .section-padding {
+        padding: 50px 0;
+    }
+    .area-title h2 {
+        font-size: 40px;
+    }
+    ul#nav {
+        width: 100%;
+        max-height: 200px;
+        overflow: scroll;
+        overflow-x: hidden;
+    }
+    ul#nav li {
+        float: none;
+    }
+    .welcome-text h3 {
+        font-size: 26px;
+    }
+    .welcome-text h1 {
+        font-size: 32px;
+    }
+    .welcome-text p {
+        display: block;
+    }
+    .home-button {
+        margin-top: 60px;
+    }
+    .home-button a {
+        font-size: 15px;
+        letter-spacing: 2px;
+        margin-left: 20px;
+        padding: 15px 30px;
+        display: inline-block !important;
+    }
+}

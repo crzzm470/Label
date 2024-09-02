@@ -1,0 +1,102 @@
+<svg id="Background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1125" height="675" viewBox="0 0 1125 675">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #212021;
+      }
+
+      .cls-1, .cls-10, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        fill: #101d21;
+      }
+
+      .cls-3, .cls-4, .cls-5, .cls-6 {
+        opacity: 0.3;
+      }
+
+      .cls-3 {
+        filter: url(#filter);
+      }
+
+      .cls-4 {
+        filter: url(#filter-2);
+      }
+
+      .cls-5 {
+        filter: url(#filter-3);
+      }
+
+      .cls-6 {
+        filter: url(#filter-4);
+      }
+
+      .cls-7 {
+        font-size: 75px;
+        text-anchor: end;
+        font-family: Montserrat;
+        font-weight: 700;
+      }
+
+      .cls-7, .cls-8, .cls-9 {
+        fill: #fcfdfc;
+      }
+
+      .cls-8 {
+        font-size: 43.735px;
+        font-family: "Myriad Pro";
+      }
+
+      .cls-8, .cls-9 {
+        text-anchor: middle;
+      }
+
+      .cls-9 {
+        font-size: 207.71px;
+        font-family: "Viner Hand ITC";
+      }
+
+      .cls-10 {
+        fill: none;
+        stroke: #c33729;
+        stroke-width: 4.167px;
+      }
+    </style>
+    <filter id="filter" x="560.031" y="-128" width="560.969" height="801" filterUnits="userSpaceOnUse">
+      <feImage preserveAspectRatio="none" x="560.031" y="-128" width="560.969" height="801" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNTYwLjk2OSIgaGVpZ2h0PSI4MDEiIHZpZXdCb3g9IjAgMCA1NjAuOTY5IDgwMSI+CiAgPGRlZnM+CiAgICA8c3R5bGU+CiAgICAgIC5jbHMtMSB7CiAgICAgICAgZmlsbDogdXJsKCNsaW5lYXItZ3JhZGllbnQpOwogICAgICB9CiAgICA8L3N0eWxlPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQiIHgxPSIyODAuNDg1IiB5MT0iODAxIiB4Mj0iMjgwLjQ4NSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiMxMDFkMjEiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMDEwMDAyIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCBjbGFzcz0iY2xzLTEiIHdpZHRoPSI1NjAuOTY5IiBoZWlnaHQ9IjgwMSIvPgo8L3N2Zz4K"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+    <filter id="filter-2" x="564" y="-1" width="561" height="801" filterUnits="userSpaceOnUse">
+      <feImage preserveAspectRatio="none" x="564" y="-1" width="561" height="801" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNTYxIiBoZWlnaHQ9IjgwMSIgdmlld0JveD0iMCAwIDU2MSA4MDEiPgogIDxkZWZzPgogICAgPHN0eWxlPgogICAgICAuY2xzLTEgewogICAgICAgIGZpbGw6IHVybCgjbGluZWFyLWdyYWRpZW50KTsKICAgICAgfQogICAgPC9zdHlsZT4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50IiB4MT0iMjgwLjUiIHgyPSIyODAuNSIgeTI9IjgwMSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiMxMDFkMjEiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMDEwMDAyIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCBjbGFzcz0iY2xzLTEiIHdpZHRoPSI1NjEiIGhlaWdodD0iODAxIi8+Cjwvc3ZnPgo="/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+    <filter id="filter-3" x="0" y="-128" width="560.969" height="801" filterUnits="userSpaceOnUse">
+      <feImage preserveAspectRatio="none" x="0" y="-128" width="560.969" height="801" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNTYwLjk2OSIgaGVpZ2h0PSI4MDEiIHZpZXdCb3g9IjAgMCA1NjAuOTY5IDgwMSI+CiAgPGRlZnM+CiAgICA8c3R5bGU+CiAgICAgIC5jbHMtMSB7CiAgICAgICAgZmlsbDogdXJsKCNsaW5lYXItZ3JhZGllbnQpOwogICAgICB9CiAgICA8L3N0eWxlPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQiIHgxPSIyODAuNDg1IiB5MT0iODAxIiB4Mj0iMjgwLjQ4NSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiMxMDFkMjEiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMDEwMDAyIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCBjbGFzcz0iY2xzLTEiIHdpZHRoPSI1NjAuOTY5IiBoZWlnaHQ9IjgwMSIvPgo8L3N2Zz4K"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+    <filter id="filter-4" x="0" y="-1" width="561" height="801" filterUnits="userSpaceOnUse">
+      <feImage preserveAspectRatio="none" x="0" y="-1" width="561" height="801" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNTYxIiBoZWlnaHQ9IjgwMSIgdmlld0JveD0iMCAwIDU2MSA4MDEiPgogIDxkZWZzPgogICAgPHN0eWxlPgogICAgICAuY2xzLTEgewogICAgICAgIGZpbGw6IHVybCgjbGluZWFyLWdyYWRpZW50KTsKICAgICAgfQogICAgPC9zdHlsZT4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ibGluZWFyLWdyYWRpZW50IiB4MT0iMjgwLjUiIHgyPSIyODAuNSIgeTI9IjgwMSIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiMxMDFkMjEiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMDEwMDAyIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCBjbGFzcz0iY2xzLTEiIHdpZHRoPSI1NjEiIGhlaWdodD0iODAxIi8+Cjwvc3ZnPgo="/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="BG" class="cls-1" d="M0,675V-3H1125V675H0Z"/>
+  <path class="cls-2" d="M746-1h375V674H746L513,335Z"/>
+  <path id="Polygon_1" data-name="Polygon 1" class="cls-3" d="M1121-128V673H560.025Z"/>
+  <path id="Polygon_1_copy" data-name="Polygon 1 copy" class="cls-4" d="M1125,800V-1H563.994Z"/>
+  <path id="Rectangle_1_copy" data-name="Rectangle 1 copy" class="cls-2" d="M375-1H0V674H375L608,335Z"/>
+  <path id="Polygon_1_copy_2" data-name="Polygon 1 copy 2" class="cls-5" d="M0-128V673H560.974Z"/>
+  <path id="Polygon_1_copy_2-2" data-name="Polygon 1 copy 2" class="cls-6" d="M0,800V-1H561.006Z"/>
+  <text id="_..." data-name="..." class="cls-7" x="1014.867" y="560.094"><tspan x="1014.867">...</tspan></text>
+  <text id="_..._copy" data-name="... copy" class="cls-7" x="176.867" y="118.094"><tspan x="176.867">...</tspan></text>
+  <g id="Company_name" data-name="Company name">
+    <text id="Producción_Integral_de_Eventos" data-name="Producción Integral de Eventos" class="cls-8" transform="matrix(0.563, 0, 0, 0.572, 562.661, 401.877)"><tspan x="0">Producción Integral de Eventos</tspan></text>
+    <text id="Label" class="cls-9" transform="matrix(0.717, 0, 0, 0.722, 570, 351.975)"><tspan x="0">Label</tspan></text>
+  </g>
+  <path id="Die_Cut" data-name="Die Cut" class="cls-10" d="M72,38h980a35,35,0,0,1,35,35V603a35,35,0,0,1-35,35H72a35,35,0,0,1-35-35V73A35,35,0,0,1,72,38Z"/>
+</svg>
